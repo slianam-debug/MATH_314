@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="Homework-assignments" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Homework assignments</title>
+
+  <introduction>
+    <p> Write complete and logical explanations for all items. </p>
+      
+    <p>  While you may get help and collaborate with others, the writing that you submit needs to be your own writing, based on your own understanding. </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="HW1.ptx" />
+  <!-- <xi:include href="HW2.ptx" />
+  <xi:include href="HW3.ptx" />
+  <xi:include href="HW4.ptx" />
+  <xi:include href="HW5.ptx" />
+  <xi:include href="HW6.ptx" />
+  <xi:include href="HW7.ptx" />
+  <xi:include href="HW8.ptx" />
+  <xi:include href="HW9.ptx" />
+  <xi:include href="HW10.ptx" /> -->
+</chapter>

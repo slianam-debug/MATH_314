@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="HW1" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Homework 1</title>
+
+  <p><alert> Due Thursday, September 4</alert></p>
+
+<exercises xml:id="hw1-ex">
+    <exercise>
+      <statement>
+        <p>
+        [From the book]: 1.10, 1.12, 1.15, 1.16*, 1.24, 1.28.
+        </p>
+      </statement>
+       <solution>
+        <p>
+          For problem 1.16: This is a proof problem. It needs to be written in Overleaf and printed separately (unless you write the entire homework in Overleaf). Instructions are below.  I will not grade this problem now. I will give you feedback, and then you need to resubmit it for the next hw.
+        </p>
+      </solution>
+    </exercise>
+ <exercise>
+        <statement>
+      <p>
+    [Problem A]: First, watch the video at <url href="https://www.youtube.com/watch?v=B2A2pGrDG8I/">What is the Pigeonhole Principle? </url>.
+     Then, write a solution to the following problem, indicating clearly which objects are the pigeons and which objects are the holes:
+     </p> 
+     <p> A square of side length <m>2</m> contains <m>5</m> points. Prove that there are two of the points whose distance from each other is at most <m>\sqrt{2}</m>.
+	​</p>
+
+.
+</statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p> [Problem B]:  Let <m>S</m> be a finite set of integers and let <m>G</m> be the graph on vertex set <m>S</m> where for any <m>x,y\in S</m>, <m>xy\in E(G)</m> if and only if <m>x+y</m> is odd.
+<ol>
+<li> Prove that <m>G</m> is a bipartite graph for any such <m>S</m>: indentify the partite sets and explain why they satisfy the definition. </li>
+<li> If <m>S=\{1, 2, \dots, 100\}</m>, find the value of <m>|E(G)|</m> (the number of edges of <m>G</m>). Justify your answer.</li>
+</ol>
+  </p>
+      </statement>
+    </exercise>
+
+      <exercise>
+        <statement>
+      <p>
+    [Problem C]: Draw the graphs <m>P_3+K_4</m> and <m>P_3\times K_4</m>. 
+  </p>
+</statement>
+    </exercise>
+
+</exercises>
+
+
+<subsection>
+  <title> Instructions for Overleaf </title>
+
+  <p> You need to create a (free) account on <url href="https://www.overleaf.com/"> Overleaf </url>. </p>
+  <p> You will need to write the solution for  problem 1.16 above in Overleaf, print the resulting pdf file and turn it in with the rest of your homework. The code I am giving you below illustrates the main ideas of how to write math in Overleaf, using LaTeX. I trust that you can find plenty of resources on the internet to figure out anything else you may need. </p>
+  <p> To create your file: click on <c>Create new project</c> (give it a name) then <c> Blank project </c>. The blank project will contain a file called <c>main.tex</c>.You can change the name of the file to <c>hw1.tex</c>. Each time you make a change in the file, click on <c>Recompile</c> to see the .pdf output, that can be downloaded (see <c>Download PDF</c> on the top menu.)
+    Delete the text in the file and paste the following text instead: </p>  
+
+<cd>\documentclass{amsart}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx} % Required for inserting images
+\begin{document}
+\begin{center}
+{\bf MATH 314 HW\# 1 Proof problem}
+\end{center}
+\bigskip
+\noindent {\bf Problem 1.16 (HW \# 1)} 
+Let $P=(u=v_0,v_1, \dots, v_k=v)$, $k\ge 1$, be a $u-v$ 
+geodesic in a connected graph $G$. Prove: 
+\[
+d(u,v_i)=i \qquad
+\text{for each integer $i$ with $1\le i\le k$}
+\]  
+\bigskip
+\begin{proof}
+    Write your proof here. 
+\end{proof}
+\end{document}
+</cd>
+</subsection>
+
+</section>
