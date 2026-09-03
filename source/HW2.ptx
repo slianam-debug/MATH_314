@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="HW2" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Homework 2 </title>
+   
+  <p><alert> Due Friday, September 11</alert></p>
+
+ <p> This homework has two parts: </p>
+  <ol> <li> <p>The problems from the book need to be submitted on paper, in class;</p></li>
+   <li> <p>Problems A and B need to be submitted online, in Canvas.
+    You will need to upload three different files: </p>
+    <ul>
+      <li>
+        <p>
+          A .pdf file with the solution to problem A and the picture for problem B. 
+        </p>
+      </li>
+      <li>
+        <p>
+          A .tex file with the Latex code that produced the .pdf file. 
+        </p>
+      </li>
+      <li>
+        <p>
+          A .doc file in which you copy/paste your conversation with ChatGPT. 
+        </p>
+      </li>
+    </ul>
+    </li>
+</ol>
+  
+<exercises xml:id="hw2-ex">
+    <exercise>
+      <statement>
+        <p>
+        Reading assignment: Read Section 1.4 (Multigraphs and digraphs)
+        </p>
+      </statement>
+    </exercise>
+ <exercise>
+        <statement>
+      <p>
+    [From the book]:  1.32(a), 2.1, 2.3, 2.5, 2.7
+  </p>
+</statement>
+<solution>
+  <p>
+    Note that odd problems have hints/solutions at the back of the book. You can certainly look at those, but please write the solutions in your own words, add details where needed,  and keep in mind that similar problems may show up on the next quiz/exam, so make sure you can solve them independently.
+  </p>
+</solution>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p> [Problem A]:  Prove that every graph with at least two vertices has a pair of vertices with the same degree.
+        </p>
+        <p>  <alert> This problem needs to be written in Overleaf, together with Problem B below, and printed out. </alert>
+  </p>
+      </statement>
+      <hint>
+        <p>
+          Use the Pigeonhole principle. Make sure to indicate clearly pigeons=?, holes=? and explain why there are more pigeons than holes
+        </p>
+      </hint>
+    </exercise>
+
+<exercise><statement>
+        <p> [Problem B]:  Your task is to draw the graph below in Latex, using the Tikz package. Have a conversation with ChatGPT to figure out how to do this. However, you are NOT allowed to show ChatGPT the picture: you will need to describe the graph in words. Additionally, I want you to record your side of the conversation with ChatGPT (what did you ask for? I would expect that you had to adjust your request a few times). Incorporate the picture and the discussion with ChatGPT in the same file created for problem A. 
+        </p>
+     <image source="graph1.jpg" width="50%">
+    <shortdescription>a graph</shortdescription>
+  </image>
+  </statement>
+</exercise>
+</exercises>
+
+
+<subsection>
+  <title> Overleaf code: </title>
+
+<p>
+  Create a new file in Overleaf and copy/paste the code: 
+</p>
+<cd>\documentclass{amsart}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+\begin{document}
+\begin{center}
+{\bf MATH 314 HW\# 2 Proof problem }
+\end{center}
+\bigskip
+\noindent {\bf Problem A} 
+Prove that every graph with at least two vertices has a pair
+of vertices with the same degree. 
+\bigskip
+\begin{proof}
+    Write your proof here. 
+\end{proof}
+\bigskip
+\noindent {\bf Problem B} Here is the graph that ChatGPT helped me draw: 
+\begin{center}
+Put the picture here. 
+\end{center}
+
+\end{document}
+</cd>
+</subsection>
+
+
+</section>
