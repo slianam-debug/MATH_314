@@ -4,31 +4,33 @@
   <title>Homework 2 </title>
    
   <p><alert> Due Friday, September 11</alert></p>
-
+<introduction>
  <p> This homework has two parts: </p>
-  <ol> <li> <p>The problems from the book need to be submitted on paper, in class;</p></li>
+  <ol marker="I"> <li> <p>The problems from the book need to be submitted on paper, in class;</p></li>
    <li> <p>Problems A and B need to be submitted online, in Canvas.
     You will need to upload three different files: </p>
     <ul>
       <li>
         <p>
-          A .pdf file with the solution to problem A and the picture for problem B. 
+          The .pdf file produced in Overleaf with the solution to Problem A and the picture for Problem B. 
         </p>
       </li>
       <li>
         <p>
-          A .tex file with the Latex code that produced the .pdf file. 
+          The .tex file you created in Overleaf with the Latex code that produced the .pdf file. 
+          (You can download this file by clicking on the 3 dots in the upper right corner under the file tree in Overleaf, then clicking on "Download").
         </p>
       </li>
       <li>
         <p>
-          A .doc file in which you copy/paste your conversation with ChatGPT. 
-        </p>
-      </li>
+          A .doc file in which you copy/paste your conversation with ChatGPT for Problem B. 
+          </p>
+          </li>
     </ul>
     </li>
 </ol>
-  
+</introduction>
+
 <exercises xml:id="hw2-ex">
     <exercise>
       <statement>
@@ -52,10 +54,9 @@
 
     <exercise>
       <statement>
-        <p> [Problem A]:  Prove that every graph with at least two vertices has a pair of vertices with the same degree.
+        <p> [Problem A]:  Prove that every graph with at least two vertices has a pair of vertices with the same degree. (The solution to this problem needs to be written in Overleaf.)
         </p>
-        <p>  <alert> This problem needs to be written in Overleaf, together with Problem B below, and printed out. </alert>
-  </p>
+      
       </statement>
       <hint>
         <p>
@@ -65,7 +66,13 @@
     </exercise>
 
 <exercise><statement>
-        <p> [Problem B]:  Your task is to draw the graph below in Latex, using the Tikz package. Have a conversation with ChatGPT to figure out how to do this. However, you are NOT allowed to show ChatGPT the picture: you will need to describe the graph in words. Additionally, I want you to record your side of the conversation with ChatGPT (what did you ask for? I would expect that you had to adjust your request a few times). Incorporate the picture and the discussion with ChatGPT in the same file created for problem A. 
+        <p> [Problem B]:  Your task is to draw the graph below in Latex, using the TikZ package. The output should look as much as possible as the picture provided. 
+        You will need to have a conversation with ChatGPT to figure out how to do this and incorporate the picture in the same file created for problem A. 
+        </p>
+        <p>
+        However, you are NOT allowed to show ChatGPT the picture: you will need to describe the graph in words. 
+        Additionally, I want you to record your conversation with ChatGPT (I want to see what you asked for; 
+        I would expect that you had to adjust your request a few times) and upload a record of this conversation as a .doc file. 
         </p>
      <image source="graph1.jpg" width="50%">
     <shortdescription>a graph</shortdescription>
@@ -83,13 +90,13 @@
 </p>
 <cd>\documentclass{amsart}
 \usepackage[margin=1in]{geometry}
-\usepackage{amsmath,amssymb}
+\usepackage{amsmath,amssymb,mathptmx}
 \usepackage{graphicx} % Required for inserting images
-\usepackage{tikz}
-\usetikzlibrary{positioning}
+\usepackage{tikz} % Package for drawing graphs
+\usetikzlibrary{positioning} % Required for positioning nodes in TikZ
 \begin{document}
 \begin{center}
-{\bf MATH 314 HW\# 2 Proof problem }
+{\bf MATH 314 HW\# 2 Problems A and B }
 \end{center}
 \bigskip
 \noindent {\bf Problem A} 
