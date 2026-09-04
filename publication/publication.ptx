@@ -85,7 +85,7 @@
   <!-- Replace the <latex> tag above with the one below to try these-->
   <!--
     <latex
-          print="no"
+          print="yes"
           sides="one"
           open-odd="no"
           pageref="no"
@@ -114,8 +114,19 @@
 
     
 <html embed-button="yes">
-    
-
+<htmlstyle>
+        <!-- Link your custom javascript file -->
+        <script src="src/custom-print.js" />
+        
+        <!-- Optional: Add CSS to hide the print button itself when printing -->
+        <css inline="
+            @media print {
+                .custom-print-btn, nav, header, .ptx-sidebar { 
+                    display: none !important; 
+                }
+            }
+        "/>
+    </htmlstyle>
     <!-- A possible attribute for the html tag above is @short-answer-responses, with values either "always" or "graded".  As in: -->
     <!--<html short-answer-responses="always">-->
 

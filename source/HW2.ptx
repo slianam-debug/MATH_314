@@ -23,7 +23,7 @@
       </li>
       <li>
         <p>
-          A .doc file in which you copy/paste your conversation with ChatGPT for Problem B. 
+          A .pdf file recording your conversation with ChatGPT for Problem B. (Print to pdf from the browser)
           </p>
           </li>
     </ul>
@@ -72,7 +72,7 @@
         <p>
         However, you are NOT allowed to show ChatGPT the picture: you will need to describe the graph in words. 
         Additionally, I want you to record your conversation with ChatGPT (I want to see what you asked for; 
-        I would expect that you had to adjust your request a few times) and upload a record of this conversation as a .doc file. 
+        I would expect that you had to adjust your request a few times) and upload a record of this conversation as a .pdf file.
         </p>
      <image source="graph1.jpg" width="50%">
     <shortdescription>a graph</shortdescription>
