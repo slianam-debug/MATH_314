@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="HW3" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Homework 3</title>
+
+<p><alert> Due Friday, September 18</alert></p>
+
+  
+  
+<exercises xml:id="hw3-ex">
+
+ <exercise>
+        <statement>
+      <p>
+    [From the book]:  2.32, 3.1, 3.3, 3.4, 3.7, 3.8, 3.9
+  </p>
+</statement>
+</exercise>
+<exercise>
+  <p>
+    [Problem A]: A group of 9 friends (call them A,B,C, ...) want to exchange gifts for Christmas, but they do not have quite enough money to buy presents for everybody. They make the following rules for the gift exchange: 
+    <ul>
+      <li>
+        <p>
+          If X gives a gift to Y, then Y also gives a gift to X. 
+        </p>
+      </li>
+      <li>
+        <p>
+          Each person in the group is to receive exactly 6 gifts from 6 different friends (and will also give 6 gifts)
+        </p>
+      </li>
+    </ul>
+
+    <ol>
+      <li>
+        <p>
+          Draw a graph that illustrates one possible way the group can plan their gift giving, and make connections with what you learned in class. (Does the graph have a name?) Then, provide instructions for gift-giving: Tell each person in the group who to buy presents for. 
+        </p>
+      </li>
+
+      <li>
+        <p>
+          If the friends decide to reduce the number of gifts, so that each person in the group will receive exactly 5 gifts from 5 different friends (and also give 5 gifts), do the same task as in the first part, if possible. If not possible, explain why. 
+        </p>
+      </li>
+    </ol>
+  </p>
+</exercise>
+    <exercise>
+      <statement>
+        <p> [Problem B]:  Prove that if <m>G</m> is a graph with <m>\delta(G)\geq 2</m>, then <m>G</m> must contain a cycle.
+        </p>
+        <p>  <alert> This problem needs to be written in Overleaf and printed out</alert>
+  </p>
+      </statement>
+      <hint>
+        <p>
+          Proceed by contradiction, assuming there is no cycle. Choose a path <m>P</m> of longest length in the graph. Use the no cycle assumption and the hypothesis that <m>\delta(G)\ge 2</m> to construct a path of larger length, contradicting the assumption on <m>P</m>.
+        </p>
+      </hint>
+    </exercise>
+
+    <exercise>
+  <statement>
+    <p>
+      If you turned in your Overleaf problem from Homework 1, and you were in class on Friday, you received feedback on your writing. Please revise the problem accordingly, but do not turn it in again just yet. If you did not turn in your Overleaf problem from Homework 1, you should turn it in now, so that I can give you feedback. While I am not grading anyone on these problems just yet, I will eventually assign a grade for these problems. 
+    </p>
+  </statement>
+</exercise>
+
+</exercises>
+
+
+<subsection>
+  <title> Overleaf code: </title>
+
+<p>
+  Create a new file in Overleaf and copy/paste the code: 
+</p>
+<cd>\documentclass{amsart}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx} % Required for inserting images
+\begin{document}
+\begin{center}
+{\bf MATH 314 HW\# 3 Proof problem}
+\end{center}
+\bigskip
+\noindent {\bf Problem B} 
+Prove that if $G$ is a graph with $\delta(G)\geq 2$, 
+then $G$ must contain a cycle.
+\bigskip
+\begin{proof}
+    Write your proof here. 
+\end{proof}
+\end{document}
+</cd>
+</subsection>
+
+</section>
