@@ -151,7 +151,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Homework 4",
-  "body": " Homework 4  Due Thursday, September 25     [From the book]: 3.17, 3.22, 3.24, 3.25     [Problem A]: How many distinct equivalence classes (under the relation of isomorphism) for a graph with 4 vertices are there? Draw exactly one graph for each equivalence class. (Only draw non-isomorphic graphs.)    "
+  "body": " Homework 4  Due Friday, September 25     [From the book]: 3.17, 3.22, 3.24, 3.25     [Problem A]: How many distinct equivalence classes (under the relation of isomorphism) for a graph with 4 vertices are there? Draw exactly one graph for each equivalence class. (Only draw non-isomorphic graphs.)    "
 },
 {
   "id": "hw4-ex-1",
