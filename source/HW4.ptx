@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="HW4" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Homework 4</title>
+ 
+<p><alert> Due Thursday, September 25</alert></p>
+
+  
+  
+<exercises xml:id="hw4-ex">
+
+ <exercise>
+        <statement>
+      <p>
+    [From the book]:  3.7, 3.8, 3.9, 3.17, 3.21, 3.22, 3.24
+  </p>
+</statement>
+</exercise>
+<exercise>
+  <p>
+    [Problem A]: How many distinct equivalence classes
+     (under the relation of isomorphism) for a graph with 4 vertices are there? 
+     Draw exactly <alert>one</alert> graph for each equivalence class. 
+     (Only draw non-isomorphic graphs.)
+  </p>
+  </exercise>
+  </exercises>
+
+
+</section>
