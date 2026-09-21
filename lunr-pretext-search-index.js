@@ -145,6 +145,33 @@ var ptx_lunr_docs = [
   "body": "  If you turned in your Overleaf problem from Homework 1, and you were in class on Friday, you received feedback on your writing. Please revise the problem accordingly, but do not turn it in again just yet. If you did not turn in your Overleaf problem from Homework 1, you should turn it in now, so that I can give you feedback. While I am not grading anyone on these problems just yet, I will eventually assign a grade for these problems.   "
 },
 {
+  "id": "HW4",
+  "level": "1",
+  "url": "HW4.html",
+  "type": "Section",
+  "number": "",
+  "title": "Homework 4",
+  "body": " Homework 4  Due Thursday, September 25     [From the book]: 3.17, 3.22, 3.24, 3.25     [Problem A]: How many distinct equivalence classes (under the relation of isomorphism) for a connected graph with 5 vertices are there? Draw exactly one graph for each equivalence class. (Only draw non-isomorphic graphs.)    "
+},
+{
+  "id": "hw4-ex-1",
+  "level": "2",
+  "url": "HW4.html#hw4-ex-1",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  [From the book]: 3.17, 3.22, 3.24, 3.25   "
+},
+{
+  "id": "hw4-ex-2",
+  "level": "2",
+  "url": "HW4.html#hw4-ex-2",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": " [Problem A]: How many distinct equivalence classes (under the relation of isomorphism) for a connected graph with 5 vertices are there? Draw exactly one graph for each equivalence class. (Only draw non-isomorphic graphs.)  "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",
