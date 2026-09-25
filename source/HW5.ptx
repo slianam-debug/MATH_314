@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="HW5" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Homework 5</title>
+
+  <p><alert> Due Friday, October 2nd </alert></p>
+
+  
+  
+<exercises xml:id="hw5-ex">
+
+ <exercise>
+        <statement>
+      <p>
+    [From the book]: 4.2 (write in Overleaf!), 4.7, 4.9, 4.13, 4.14, 4.18
+  </p>
+</statement>
+</exercise>
+<exercise>
+  <p>
+    [Problem A]: Draw a graph with 3 edges that are bridges and 10 edges that are not bridges. 
+  </p>
+  </exercise>
+  </exercises>
+
+
+  
+<subsection>
+  <title> Overleaf code for problem 4.2: </title>
+
+<p>
+  Create a new file in Overleaf and copy/paste the code: 
+</p>
+<cd>\documentclass{amsart}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx} % Required for inserting images
+\begin{document}
+\begin{center}
+{\bf MATH 314 HW\# 5 Proof problem}
+\end{center}
+\bigskip
+\noindent {\bf Problem 4.2} 
+Prove that every connected graph all of whose vertices
+have even degrees contains no bridges. 
+\bigskip
+\begin{proof}
+    Write your proof here. 
+\end{proof}
+\end{document}
+</cd>
+</subsection>
+
+
+</section>

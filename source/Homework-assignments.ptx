@@ -14,10 +14,6 @@
   <xi:include href="HW2.ptx" />
   <xi:include href="HW3.ptx" /> 
   <xi:include href="HW4.ptx" />
-  <!-- <xi:include href="HW5.ptx" />
-  <xi:include href="HW6.ptx" />
-  <xi:include href="HW7.ptx" />
-  <xi:include href="HW8.ptx" />
-  <xi:include href="HW9.ptx" /> -->
-  <!-- <xi:include href="HW10.ptx" /> -->  -->
+  <xi:include href="HW5.ptx" />
+
 </chapter>
