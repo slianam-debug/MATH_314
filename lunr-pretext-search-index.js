@@ -199,6 +199,42 @@ var ptx_lunr_docs = [
   "body": " [Problem A]: Draw a graph with 3 edges that are bridges and 10 edges that are not bridges.  "
 },
 {
+  "id": "HW6",
+  "level": "1",
+  "url": "HW6.html",
+  "type": "Section",
+  "number": "",
+  "title": "Homework 6",
+  "body": " Homework 6  Due Monday, October 12th     [From the book]: 4.25, 4.27, 4.28, 4,34(a), 4.35(a), 5.3     [Problem A]: Use either of the two algorithms to find a spanning tree of minimum total weight and compute its total weight.   a graph     "
+},
+{
+  "id": "hw6-ex-1",
+  "level": "2",
+  "url": "HW6.html#hw6-ex-1",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  [From the book]: 4.25, 4.27, 4.28, 4,34(a), 4.35(a), 5.3   "
+},
+{
+  "id": "hw6-ex-2",
+  "level": "2",
+  "url": "HW6.html#hw6-ex-2",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": " [Problem A]: Use either of the two algorithms to find a spanning tree of minimum total weight and compute its total weight.   a graph   "
+},
+{
+  "id": "Review1",
+  "level": "1",
+  "url": "Review1.html",
+  "type": "Section",
+  "number": "",
+  "title": "Review for Exam 1",
+  "body": " Review for Exam 1  Topics covered by Exam 1     Section 1.1 - Graphs and graph models     Definitions and concepts:    graph    edge    vertex    trivial graph    order    size         Section 1.2 Connected graphs     Definitions and concepts    adjacent vertices    vertex (edge) incident to an edge (vertex)    subgraph    the graph , where is an edge    the graph , where is a vertex    walk    closed walk    trail\/circuit    path\/cycle     -cycle, even cycle, odd cycle    connected graph    length of a walk    distance between two vertices      geodesic    diameter of a graph    component of a graph    equivalence relation (see appendix)      Applications and theorems:    Theorem 1.6    Theorem 1.7 - Be able to prove          Section 1.3 Common classes of graphs     Definitions and concepts:    complete graph     path graph     cycle graph     bipartite graph\/partite sets    complete bipartite graph     union and product of graphs ( and )    The cube graph       Applications and theorems:    Theorem 1.12    Be able to explain why a given graph is bipartite or not bipartite         Section 2.1 Degree of a vertex     Definitions and concepts:    degree of a vertex    isolated vertex, end-vertex(leaf)    minimum degree , maximum degree       Applications and theorems    Theorem 21.    Corollary 2.3 - Be able to prove     Theorem 2.4    Corollary 2.5    Apply these results in exercises         Section 2.2 Regular graphs     Definition anf concepts:    regular graph    The Harary graph (be able to draw it for given and )      Applications and Theorems:    Theorem 2.6         Section 2.3 Degree sequences     Definition and concepts:    degree sequence of a graph    graphical sequence      Applications and theorems:    Theorem 2.10    Be able to decide if a sequence is graphical. If it is, draw a graph that realizes it.         Section 3.1 The definition of isomorphism     Definition and concepts:    isomorphism    isomorphic graphs      Applications and theorems    Know various properties of a graph that are preserved under isomorphism    Be able to recognize and explain that two given graphs are or are not isomorphic         Section 3.2 Isomoprhism as a relation     Definitions and concepts:    isomorphism class (see also Appendix 2.1 for equivalence class)      Applications and theorems:    Theorem 3.6    Identify isomorphism classes of graphs with various properties by giving a representative for each class (i.e. find all possible non-isomorphic graphs with the given property)         Section 3.3 Excursion: Graphs and groups     Definitions and concepts    automorphism    permutation, cycle      Applications and theorems:    Identify the automorphisms of a graph and write them using cycle notation         Section 4.1 Bridges     Definitions and concepts    bridge      Applications and theorems:    Theorem 4.1 Be able to prove          Section 4.2 Trees     Definitions and concepts    acyclic graph    tree    root of a tree    forest    parents and children in a rooted tree    binary tree, complete binary tree (as done in class)    mathematical induction (See also appendix 3)    height of a rooted tree (as done in class)      Applications and theorems    Theorem 4.2 Be able to prove     Theorem 4.3    Theorem 4.4 Be able to prove     Theorem 4.6    Corollary 4.6    Theorem 4.7    Theorem proved in class: the number of vertices of a complete tree of height is     Be able to solve exercises putting together these results         The minimum Spanning tree problem     Definitions and concepts    spanning tree    weighted graph    minimum spanning tree      Applications and theorems    The Kruskal algorithm    The Prim algorithm         Setcion 4.4 Excursion: the number of spanning trees     Applications and theorems:    Count the number of spanning trees in a given graph        "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",
