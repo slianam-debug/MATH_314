@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="Review1" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Review for Exam 1</title>
+
+  <p> Topics covered by Exam 1 </p>
+
+  
+  <ul> 
+    <li>
+      <p> <em>Section 1.1 - Graphs and graph models</em>
+      </p>
+  <ul>
+    <li>
+      <p> Definitions and concepts:
+      </p>
+         <ul>
+        <li>
+          <p>
+            graph
+          </p>
+        </li>
+        <li>
+          <p>
+            edge
+          </p>
+        </li>
+        <li>
+          <p>
+            vertex
+          </p>
+        </li>
+        <li>
+          <p>
+           trivial graph 
+          </p>
+        </li>
+        <li>
+          <p>
+            order
+          </p>
+        </li>
+        <li>
+          <p>
+            size
+          </p>
+        </li>
+       </ul>
+      </li>
+  </ul>
+</li>
+
+<li>
+  <p>
+    <em> Section 1.2 Connected graphs</em>
+  </p>
+    <ul>
+      <li>
+        <p>
+          Definitions and concepts
+        </p>
+        <ul>
+          <li>
+            <p>
+              adjacent vertices
+            </p>
+          </li>
+          <li>
+            <p>
+              vertex (edge) incident to an edge (vertex)
+            </p>
+          </li>
+          <li>
+            <p>
+              subgraph
+            </p>
+          </li>
+          <li>
+            <p>
+              the graph <m>G-e</m>,  where <m>e</m> is an edge
+            </p>
+          </li>
+          <li>
+            <p>
+              the graph <m>G-v</m>, where <m>v</m> is a vertex
+            </p>
+          </li>
+          <li>
+            <p>
+              walk
+            </p>
+          </li>
+          <li>
+            <p>
+              closed walk
+            </p>
+          </li>
+          <li>
+            <p>
+              trail/circuit
+            </p>
+          </li>
+          <li>
+            <p>
+              path/cycle
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>k</m>-cycle, even cycle, odd cycle
+            </p>
+          </li>
+          <li>
+            <p>
+              connected graph
+            </p>
+          </li>
+          <li>
+            <p>
+              length of a walk
+            </p>
+          </li>
+          <li>
+            <p>
+              distance between two vertices <m>d(u,v)</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>u-v</m> geodesic
+            </p>
+          </li>
+          <li>
+            <p>
+              diameter of a graph
+            </p>
+          </li>
+          <li>
+            <p>
+              component of a graph
+            </p>
+          </li>
+          <li>
+            <p>
+              equivalence relation (see appendix)
+            </p>
+          </li>
+
+        </ul>
+      </li>
+      <li>
+        <p>
+          Applications and theorems:
+        </p>
+        <ul>
+          <li>
+            <p>
+              Theorem 1.6 
+            </p>
+          </li>
+          <li>
+            <p>
+              Theorem 1.7 - <alert> Be able to prove </alert>
+            </p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    
+</li>
+
+<li>
+  <p>
+    <em> Section 1.3 Common classes of graphs</em>
+  </p>
+    <ul>
+      <li>
+        <p>
+         Definitions and concepts:  
+        </p>
+        <ul>
+          <li>
+            <p>
+              complete graph <m>K_n</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              path graph <m> P_n</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              cycle graph <m> C_n</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              bipartite graph/partite sets
+            </p>
+          </li>
+          <li>
+            <p>
+              complete bipartite graph <m> K_{m,n}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              union and product of graphs (<m> G+H</m> and <m> G\times H</m>)
+            </p>
+          </li>
+          <li>
+            <p>
+              The cube graph <m>Q_n</m>
+            </p>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p>
+          Applications and theorems:
+        </p>
+        <ul>
+          <li>
+            <p>
+              Theorem 1.12
+            </p>
+          </li>
+          <li>
+            <p>
+              Be able to explain why a given graph is bipartite or not bipartite
+            </p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    </li>
+
+  <li>
+  <p>
+    <em> Section 2.1 Degree of a vertex</em>
+  </p>
+    <ul>
+      <li>
+        <p>
+          Definitions and concepts:
+        </p>
+        <ul>
+          <li>
+            <p>
+              degree of a vertex
+            </p>
+          </li>
+          <li>
+            <p>
+              isolated vertex, end-vertex(leaf)
+            </p>
+          </li>
+          <li>
+            <p>
+              minimum degree <m>\delta(G)</m>, maximum degree <m>\Delta(G)</m>
+            </p>
+          </li>
+        </ul>
+      </li>  
+      <li>
+        <p>
+          Applications and theorems 
+        </p>
+        <ul>
+          <li>
+            <p>
+              Theorem 21.
+            </p>
+          </li>
+          <li>
+            <p>
+              Corollary 2.3 - <alert> Be able to prove</alert>
+            </p>
+          </li>
+          <li>
+            <p>
+              Theorem 2.4
+            </p>
+          </li>
+          <li>
+            <p>
+              Corollary 2.5
+            </p>
+          </li>
+          <li>
+            <p>
+              Apply these results in exercises
+            </p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>   
+  <li>
+    <p>
+      <em> Section 2.2 Regular graphs </em>
+    </p>
+    <ul>
+      <li>
+        <p>
+          Definition anf concepts: 
+        </p>
+        <ul>
+          <li>
+            <p>
+              regular graph
+            </p>
+          </li>
+          <li>
+            <p>
+              The Harary graph <m> H_{r,n}</m> (be able to draw it for given <m> r</m> and <m> n</m>)
+            </p>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p>
+          Applications and Theorems: 
+        </p>
+        <ul>
+          <li>
+            <p>
+              Theorem 2.6
+            </p>
+          </li>
+        </ul>
+      </li>
+
+    </ul>
+  </li>
+  <li>
+    <p>
+      <em> Section 2.3 Degree sequences </em>
+    </p>
+    <ul>
+      <li>
+        <p>
+          Definition and concepts:
+        </p>
+        <ul>
+          <li>
+            <p>
+              degree sequence of a graph
+            </p>
+          </li>
+          <li>
+            <p>
+              graphical sequence
+            </p>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p>
+          Applications and theorems:
+        </p>
+        <ul>
+          <li>
+            <p>
+              Theorem 2.10
+            </p>
+          </li>
+          <li>
+            <p>
+              Be able to decide if a sequence is graphical. If it is, draw a graph that realizes it. 
+            </p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>
+      <em> Section 3.1 The definition of isomorphism </em>
+    </p>
+    <ul>
+      <li>
+        <p>
+          Definition and concepts: 
+        </p>
+        <ul>
+          <li>
+            <p>
+              isomorphism
+            </p>
+          </li>
+          <li>
+            <p>
+              isomorphic graphs
+            </p>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p>
+          Applications and theorems
+        </p>
+      <ul>
+        <li>
+          <p>
+            Know various properties of a graph that are preserved under isomorphism
+          </p>
+        </li>
+        <li>
+          <p>
+            Be able to recognize and explain that two given graphs are or are not isomorphic
+          </p>
+        </li>
+      </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>
+      <em> Section 3.2 Isomoprhism as a relation </em>
+    </p>
+    <ul>
+      <li>
+        <p>
+          Definitions and concepts:
+        </p>
+        <ul>
+          <li>
+            <p>
+              isomorphism class (see also Appendix 2.1 for equivalence class)
+            </p>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p>
+          Applications and theorems: 
+        </p>
+        <ul>
+          <li>
+            <p>
+              Theorem 3.6
+            </p>
+          </li>
+          <li>
+            <p>
+              Identify isomorphism classes of graphs with various properties by giving a representative for each class
+(i.e. find all possible non-isomorphic graphs with the given property)
+            </p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+<li>
+  <p>
+<em> Section 3.3 Excursion: Graphs and groups </em>
+  </p>
+  <ul>
+    <li>
+      <p>
+        Definitions and concepts
+      </p>
+      <ul>
+        <li>
+          <p>
+            automorphism
+          </p>
+        </li>
+        <li>
+          <p>
+            permutation, cycle
+          </p>
+        </li>
+      </ul>
+    </li>
+  <li>
+    <p>
+      Applications and theorems:
+    </p>
+    <ul>
+      <li>
+        <p>
+          Identify the automorphisms of a graph and write them using cycle notation
+        </p>
+      </li>
+    </ul>
+  </li>
+  </ul>
+</li>
+
+ <li>
+  <p>
+    <em> Section 4.1 Bridges </em>
+  </p>
+  <ul>
+    <li>
+      <p>
+        Definitions and concepts
+      </p>
+      <ul>
+        <li>
+          <p>
+            bridge
+          </p>
+        </li>
+      </ul>
+    </li>
+   <li>
+    <p>
+      Applications and theorems: 
+    </p>
+    <ul>
+      <li>
+        <p>
+          Theorem 4.1 <alert>Be able to prove</alert>
+        </p>
+      </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li>
+  <p>
+    <em> Section 4.2 Trees </em>
+  </p>
+    <ul>
+      <li>
+        <p>
+          Definitions and concepts
+        </p>
+        <ul>
+          <li>
+            <p>
+              acyclic graph
+            </p>
+          </li>
+          <li>
+            <p>
+              tree
+            </p>
+          </li>
+          <li>
+            <p>
+              root of a tree
+            </p>
+          </li>
+          <li>
+            <p>
+              forest
+            </p>
+          </li>
+          <li>
+            <p>
+              parents and children in a rooted tree
+            </p>
+          </li>
+          <li>
+            <p>
+              binary tree, complete binary tree (as done in class)
+            </p>
+          </li>
+          <li>
+            <p>
+              mathematical induction (See also appendix 3)
+            </p>
+          </li>
+          <li>
+            <p>
+              height of a rooted tree (as done in class)
+            </p>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p>
+          Applications and theorems 
+        </p>
+        <ul>
+          <li>
+            <p>
+              Theorem 4.2 <alert> Be able to prove </alert>
+            </p>
+          </li>
+          <li>
+            <p>
+              Theorem 4.3
+            </p>
+          </li>
+          <li>
+            <p>
+              Theorem 4.4 <alert> Be able to prove</alert>
+            </p>
+          </li>
+          <li>
+            <p>
+              Theorem 4.6
+            </p>
+          </li>
+          <li>
+            <p>
+              Corollary 4.6
+            </p>
+          </li>
+          <li>
+            <p>
+              Theorem 4.7
+            </p>
+          </li>
+          <li>
+            <p>
+              Theorem proved in class: the number of vertices of a complete tree of height <m> n </m> is <m>2^{n+1}-1</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              Be able to solve exercises putting together these results
+            </p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+ </li>
+ <li>
+  <p>
+    <em> The minimum Spanning tree problem</em>
+  </p>
+  <ul>
+    <li>
+      <p>
+        Definitions and concepts
+      </p>
+     <ul>
+      <li>
+        <p>
+          spanning tree
+        </p>
+      </li>
+      <li>
+        <p>
+          weighted graph
+        </p>
+      </li>
+       <li>
+        <p>
+          minimum spanning tree
+        </p>
+       </li>
+     </ul>
+    </li>
+    <li>
+      <p>
+        Applications and theorems
+      </p>
+        <ul>
+          <li>
+            <p>
+              The Kruskal algorithm
+            </p>
+          </li>
+          <li>
+            <p>
+              The Prim algorithm
+            </p>
+          </li>
+        </ul>
+    </li>
+  </ul>
+ </li>
+ <li>
+  <p>
+    <em>Setcion 4.4 Excursion: the number of spanning trees</em>
+  </p>
+  <ul>
+    <li>
+      <p>
+        Applications and theorems:
+      </p>
+    <ul>
+      <li>
+        <p>
+          Count the number of spanning trees in a given graph
+        </p>
+      </li>
+    </ul>
+    </li>
+  </ul>
+ </li>
+
+</ul>
+
+
+</section>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="HW6" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Homework 6</title>
+
+  <p><alert> Due Monday, October 12th </alert></p>
+
+  
+  
+<exercises xml:id="hw6-ex">
+<exercise>
+        <statement>
+      <p>
+    [From the book]: 4.25, 4.27, 4.28, 4,34(a), 4.35(a), 5.3
+  </p>
+
+
+</statement>
+</exercise>
+
+
+<exercise>
+  <p>
+    [Problem A]: Use either of the two algorithms to find a spanning tree of minimum total weight and compute its total weight.  
+  </p>
+<image source="graph2.png" width="65%">
+    <shortdescription>a graph</shortdescription>
+  </image>
+  </exercise>
+
+</exercises> 
+
+  
+</section>

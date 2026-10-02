@@ -15,7 +15,7 @@
     <!-- Include chapters -->
     <xi:include href="./Homework-assignments.ptx" />
      <!-- <xi:include href="./Review-for-exams.ptx" /> -->
-
+<xi:include href="./Review-for-exams.ptx" />
 
     <!-- Include backmatter -->
     <xi:include href="./backmatter.ptx" />
