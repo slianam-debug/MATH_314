@@ -270,7 +270,7 @@
         <ul>
           <li>
             <p>
-              Theorem 21.
+              Theorem 2.1
             </p>
           </li>
           <li>
@@ -304,7 +304,7 @@
     <ul>
       <li>
         <p>
-          Definition anf concepts: 
+          Definitions and concepts:
         </p>
         <ul>
           <li>
@@ -418,7 +418,7 @@
   </li>
   <li>
     <p>
-      <em> Section 3.2 Isomoprhism as a relation </em>
+      <em> Section 3.2 Isomorphism as a relation </em>
     </p>
     <ul>
       <li>
@@ -553,24 +553,10 @@
           </li>
           <li>
             <p>
-              parents and children in a rooted tree
-            </p>
-          </li>
-          <li>
-            <p>
-              binary tree, complete binary tree (as done in class)
-            </p>
-          </li>
-          <li>
-            <p>
               mathematical induction (See also appendix 3)
             </p>
           </li>
-          <li>
-            <p>
-              height of a rooted tree (as done in class)
-            </p>
-          </li>
+
         </ul>
       </li>
       <li>
@@ -610,11 +596,6 @@
           </li>
           <li>
             <p>
-              Theorem proved in class: the number of vertices of a complete tree of height <m> n </m> is <m>2^{n+1}-1</m>
-            </p>
-          </li>
-          <li>
-            <p>
               Be able to solve exercises putting together these results
             </p>
           </li>
@@ -624,7 +605,7 @@
  </li>
  <li>
   <p>
-    <em> The minimum Spanning tree problem</em>
+    <em> The minimum spanning tree problem</em>
   </p>
   <ul>
     <li>
@@ -670,7 +651,7 @@
  </li>
  <li>
   <p>
-    <em>Setcion 4.4 Excursion: the number of spanning trees</em>
+    <em>Section 4.4 Excursion: the number of spanning trees</em>
   </p>
   <ul>
     <li>
@@ -688,7 +669,43 @@
   </ul>
  </li>
 
-</ul>
+<li>
+  <p>
+    <em>Section 5.1 Connectivity</em>
+  </p>
+       <ul>
+         <li>
+           <p>
+             Definitions and concepts
+           </p>
+               <ul>
+                 <li>
+                   <p>
+                    cut-vertex
+                   </p>
+                  </li>
+                </ul>
+          </li>
+           <li>
+             <p>
+              Applications and theorems:
+            </p>
+              <ul>
+                <li>
+                  <p>
+                  Identify the cut-vertices of a given graph
+                  </p>
+                </li>
+                 <li>
+                   <p>
+                   Theorem 5.1
+                   </p>
+                </li>
+              </ul>
+             </li>
+     </ul>
+     </li>
+     </ul>
 
 
 </section>
