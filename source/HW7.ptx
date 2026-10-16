@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="HW7" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Homework 7</title>
+
+  <p><alert> Due Friday, October 23rd </alert></p>
+
+  
+  
+<exercises xml:id="hw7-ex">
+<exercise>
+        <statement>
+      <p>
+    Put together in a single file all the problems that I asked you so far to do in Overleaf. Make sure to correct/improve your proofs, if I gave you feedback.Then print out the output and submit with the rest of the problems below; fit as many problems as you can on one page, rather than one problem per page. The title should be "Graph theory proofs portfolio".
+  </p>
+</statement>
+</exercise>
+<exercise>
+        <statement>
+      <p>
+    [From the book]: 5.21, 5.31, 6.1
+  </p>
+</statement>
+</exercise>
+
+<exercise>
+<p>
+  Determine the vertex- and edge- connectivity, indicating the minimum vertex-cuts and edge-cuts, of the following graph: 
+</p>
+  <image source="connectivity.jpg" width="30%">
+    <shortdescription>a graph</shortdescription>
+  </image>
+</exercise>
+
+<exercise>
+<p>
+ Prove there exists no <m>3</m>-connected graph (in other words with <m>\kappa(G)\ge 3</m>) with exactly 7 edges.    
+</p>
+</exercise>
+
+
+<exercise>
+<p>
+  Let <m>G=T_5</m>, where <m>T_5</m> is the tree in Figure 4.3 (page 88) of your book. 
+</p>
+  <ol>
+    <li>
+        <p>
+           Draw the graphs <m>G^2</m> and <m>G^3 </m>
+        </p>
+    </li>
+    <li>
+        <p>
+    Find <m>\kappa(G^2)</m> and <m>\lambda(G^2)</m>, 
+  indicating the minimum vertex-cut and edge-cuts. 
+        </p>
+    </li>
+  </ol>
+</exercise>
+
+
+<exercise>
+<p>
+   On page 121 of your book is described the construction of the Harary graph <m>H_{r,n}</m> when both <m>r</m> and <m>n</m> are odd. This is no 
+   longer a regular graph (since no such graph exists when both <m>r</m> and <m>n</m> are odd), but it has <m>n-1</m> vertices of degree <m>r</m> and one vertex 
+   of degree <m>r+1</m>. Read the construction in the book and draw the graph <m>H_{5,7}</m>. Then, find its edge-connectivity.   
+</p>
+</exercise>
+
+<exercise>
+    <p>
+        Decide if the graph below is Eulerian. If it is, give an Eulerian circuit by enumerating the edges. Start at the vertex denoted S. 
+    </p>
+    <image source="eulerian.jpg" width="60%">
+       <shortdescription>a graph</shortdescription>
+  </image>
+</exercise>
+
+<exercise>
+<p>
+ Suppose certain pairs in a department of six people (<m> A, B, C, D, E, F</m>) must meet privately in a single available conference room. The following is a list of pairs that need to meet: 
+<me>
+  \{A,B\}, \{A,D\}, \{A,E\}, \{B,C\}, \{B,D\}, \{B,F\}, \{C,E\}, \{D, E\},
+</me>
+<me>
+   \{D,F\}, \{E,F\} 
+</me>
+If a pair is in this list, e.g. <m> \{A,B\}</m>, then this means that <m> A</m> and <m>B</m> need to meet. 
+</p>
+    
+<p> Is it possible to sequence the two-person conferences so that one of the participants in each conference (except for the last one) also participates in the next conference, but no one participates in three consecutive conferences? 
+If so, describe how the sequencing needs to be done (who meets first, who meets next, etc.) 
+</p>
+<p>
+You need to answer this problem using concepts and results of 
+graph theory that we talked about, and describe how the given problem can be translated into a problem about a graph, 
+and then solve the problem using the graph. 
+</p>
+</exercise>
+
+
+</exercises> 
+
+  
+</section>
