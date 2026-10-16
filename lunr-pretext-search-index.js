@@ -226,6 +226,87 @@ var ptx_lunr_docs = [
   "body": " [Problem A]: Use either of the two algorithms to find a spanning tree of minimum total weight and compute its total weight.   a graph   "
 },
 {
+  "id": "HW7",
+  "level": "1",
+  "url": "HW7.html",
+  "type": "Section",
+  "number": "",
+  "title": "Homework 7",
+  "body": " Homework 7  Due Friday, October 23rd     Put together in a single file all the problems that I asked you so far to do in Overleaf. Make sure to correct\/improve your proofs, if I gave you feedback.Then print out the output and submit with the rest of the problems below; fit as many problems as you can on one page, rather than one problem per page. The title should be \"Graph theory proofs portfolio\".      [From the book]: 5.21, 5.31, 6.1     Determine the vertex- and edge- connectivity, indicating the minimum vertex-cuts and edge-cuts, of the following graph:   a graph     Prove there exists no -connected graph (in other words with ) with exactly 7 edges.    Let , where is the tree in Figure 4.3 (page 88) of your book.    Draw the graphs and     Find and , indicating the minimum vertex-cut and edge-cuts.      On page 121 of your book is described the construction of the Harary graph when both and are odd. This is no longer a regular graph (since no such graph exists when both and are odd), but it has vertices of degree and one vertex of degree . Read the construction in the book and draw the graph . Then, find its edge-connectivity.    Decide if the graph below is Eulerian. If it is, give an Eulerian circuit by enumerating the edges. Start at the vertex denoted S.   a graph     Suppose certain pairs in a department of six people ( ) must meet privately in a single available conference room. The following is a list of pairs that need to meet:  If a pair is in this list, e.g. , then this means that and need to meet.  Is it possible to sequence the two-person conferences so that one of the participants in each conference (except for the last one) also participates in the next conference, but no one participates in three consecutive conferences? If so, describe how the sequencing needs to be done (who meets first, who meets next, etc.)  You need to answer this problem using concepts and results of graph theory that we talked about, and describe how the given problem can be translated into a problem about a graph, and then solve the problem using the graph.    "
+},
+{
+  "id": "hw7-ex-1",
+  "level": "2",
+  "url": "HW7.html#hw7-ex-1",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Put together in a single file all the problems that I asked you so far to do in Overleaf. Make sure to correct\/improve your proofs, if I gave you feedback.Then print out the output and submit with the rest of the problems below; fit as many problems as you can on one page, rather than one problem per page. The title should be \"Graph theory proofs portfolio\".   "
+},
+{
+  "id": "hw7-ex-2",
+  "level": "2",
+  "url": "HW7.html#hw7-ex-2",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  [From the book]: 5.21, 5.31, 6.1   "
+},
+{
+  "id": "hw7-ex-3",
+  "level": "2",
+  "url": "HW7.html#hw7-ex-3",
+  "type": "Exercise",
+  "number": "3",
+  "title": "",
+  "body": " Determine the vertex- and edge- connectivity, indicating the minimum vertex-cuts and edge-cuts, of the following graph:   a graph   "
+},
+{
+  "id": "hw7-ex-4",
+  "level": "2",
+  "url": "HW7.html#hw7-ex-4",
+  "type": "Exercise",
+  "number": "4",
+  "title": "",
+  "body": " Prove there exists no -connected graph (in other words with ) with exactly 7 edges.  "
+},
+{
+  "id": "hw7-ex-5",
+  "level": "2",
+  "url": "HW7.html#hw7-ex-5",
+  "type": "Exercise",
+  "number": "5",
+  "title": "",
+  "body": " Let , where is the tree in Figure 4.3 (page 88) of your book.    Draw the graphs and     Find and , indicating the minimum vertex-cut and edge-cuts.    "
+},
+{
+  "id": "hw7-ex-6",
+  "level": "2",
+  "url": "HW7.html#hw7-ex-6",
+  "type": "Exercise",
+  "number": "6",
+  "title": "",
+  "body": " On page 121 of your book is described the construction of the Harary graph when both and are odd. This is no longer a regular graph (since no such graph exists when both and are odd), but it has vertices of degree and one vertex of degree . Read the construction in the book and draw the graph . Then, find its edge-connectivity.  "
+},
+{
+  "id": "hw7-ex-7",
+  "level": "2",
+  "url": "HW7.html#hw7-ex-7",
+  "type": "Exercise",
+  "number": "7",
+  "title": "",
+  "body": " Decide if the graph below is Eulerian. If it is, give an Eulerian circuit by enumerating the edges. Start at the vertex denoted S.   a graph   "
+},
+{
+  "id": "hw7-ex-8",
+  "level": "2",
+  "url": "HW7.html#hw7-ex-8",
+  "type": "Exercise",
+  "number": "8",
+  "title": "",
+  "body": " Suppose certain pairs in a department of six people ( ) must meet privately in a single available conference room. The following is a list of pairs that need to meet:  If a pair is in this list, e.g. , then this means that and need to meet.  Is it possible to sequence the two-person conferences so that one of the participants in each conference (except for the last one) also participates in the next conference, but no one participates in three consecutive conferences? If so, describe how the sequencing needs to be done (who meets first, who meets next, etc.)  You need to answer this problem using concepts and results of graph theory that we talked about, and describe how the given problem can be translated into a problem about a graph, and then solve the problem using the graph.  "
+},
+{
   "id": "Review1",
   "level": "1",
   "url": "Review1.html",
