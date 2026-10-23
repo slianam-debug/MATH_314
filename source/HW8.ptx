@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="HW8" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Homework 8</title>
+
+  <p><alert> Due Friday, October 30th </alert></p>
+
+  
+  
+<exercises xml:id="hw8-ex">
+<exercise>
+        <statement>
+      <p>
+    Find the optimal postman tour for the graph below. In other words, find a closed walk of minimum weight that uses all the edges at least once. Give the walk by enumerating the vertices. Then, compute the total weight of this walk. 
+Show all steps of the algorithm. </p>
+<figure xml:id="fig-tikz">
+  <caption>Problem 1 figure</caption>
+  <image width="50%" xml:id="graph1">
+    <shortdescription>a graph</shortdescription>
+<latex-image >
+\begin{tikzpicture}[
+scale=1.2,
+v/.style={circle,draw=black,fill=white,inner sep=1.5pt,minimum size=6mm,font=\small},
+wlabel/.style={midway,above,font=\footnotesize,fill=white,inner sep=1pt}
+]
+
+%--- vertices in grid-like planar layout ---
+\node[v] (A) at (0,4) {A};
+\node[v] (B) at (2,4) {B};
+\node[v] (C) at (4,4) {C};
+\node[v] (D) at (6,4) {D};
+\node[v] (E) at (0,2) {E};
+\node[v] (F) at (2,2) {F};
+\node[v] (G) at (4,2) {G};
+\node[v] (H) at (6,2) {H};
+\node[v] (I) at (0,0) {I};
+\node[v] (J) at (2,0) {J};
+\node[v] (K) at (4,0) {K};
+\node[v] (L) at (6,0) {L};
+
+%--- horizontal edges with weights above ---
+\draw (A) -- node[wlabel]{3} (B);
+\draw (B) -- node[wlabel]{5} (C);
+\draw (C) -- node[wlabel]{4} (D);
+
+\draw (E) -- node[wlabel]{2} (F);
+\draw (F) -- node[wlabel]{2} (G);
+\draw (G) -- node[wlabel]{6} (H);
+
+\draw (I) -- node[wlabel]{4} (J);
+\draw (J) -- node[wlabel]{5} (K);
+\draw (K) -- node[wlabel]{3} (L);
+
+%--- vertical edges ---
+\draw (A) -- node[wlabel]{2} (E);
+\draw (B) -- node[wlabel]{4} (F);
+\draw (C) -- node[wlabel]{5} (G);
+\draw (D) -- node[wlabel]{3} (H);
+
+\draw (E) -- node[wlabel]{3} (I);
+\draw (F) -- node[wlabel]{2} (J);
+\draw (G) -- node[wlabel]{4} (K);
+\draw (H) -- node[wlabel]{5} (L);
+
+%--- extra diagonal connections ---
+% Adjusted label placement to avoid overlap:
+\draw (B) -- node[pos=0.7,above right,fill=white,font=\footnotesize]{7} (G);
+\draw (C) -- node[pos=0.5,below left ,fill=white,font=\footnotesize]{6} (F);
+\draw (E) -- node[wlabel]{8} (J);
+\draw (G) -- node[wlabel]{9} (L);
+\end{tikzpicture}
+</latex-image>
+</image>
+</figure>
+</statement>
+</exercise>
+
+<exercise>
+<p>
+  Prove that a bipartite graph that is Hamiltonian must have an even number of vertices. 
+</p>
+</exercise>
+
+<exercise>
+<p>
+ For each of the graphs below, decide whether it is Hamiltonian or not. If it is Hamiltonian, give a Hamiltonian cycle. If it is not, you need to explain why not. 
+</p>
+<ol>
+    <li>           
+<figure xml:id="fig-tikz2">
+  <caption>Part (a) figure</caption>
+  <image width="50%" xml:id="graph2">
+    <shortdescription>a graph</shortdescription>
+<latex-image >
+\begin{tikzpicture}[scale=2, every node/.style={circle, fill=black, inner sep=1.5pt}]
+  % Outer pentagon
+  \node (a) at (90:1) [label=above:$a$] {};
+  \node (h) at (18:1) [label=right:$h$] {};
+  \node (k) at (-54:1) [label=right:$k$] {};
+  \node (b) at (-126:1) [label=left:$b$] {};
+  \node (j) at (162:1) [label=left:$j$] {};
+  
+  % Inner pentagon
+  \node (d) at (90:0.5) [label=above:$d$] {};
+  \node (f) at (18:0.5) [label=right:$f$] {};
+  \node (e) at (-54:0.5) [label=below right:$e$] {};
+  \node (i) at (-126:0.5) [label=below left:$i$] {};
+  \node (g) at (162:0.5) [label=left:$g$] {};
+  \node (c) at (0,0) [label=below:$c$] {};
+
+  % Outer pentagon edges
+  \draw (a)--(h)--(k)--(b)--(j)--(a);
+
+
+  % Spokes connecting outer to inner vertices
+  \draw (a)--(j);
+   \draw (a)--(h);
+   \draw (a)--(g);
+    \draw (a)--(f);
+     \draw (d)--(j);
+      \draw (d)--(h);
+       \draw (d)--(c);
+        \draw (c)--(g);
+         \draw (c)--(f);
+          \draw (c)--(i);
+           \draw (c)--(e);
+            \draw (i)--(k);
+             \draw (i)--(j);
+              \draw (e)--(b);
+               \draw (e)--(h);
+                \draw (g)--(b);
+                 \draw (f)--(k);
+\end{tikzpicture}
+    </latex-image>
+</image>
+</figure>
+    </li>
+    <li>  
+<figure xml:id="fig-tikz3">
+  <caption>Part (b) figure</caption>
+  <image width="50%" xml:id="graph3">
+<shortdescription>a graph</shortdescription>
+<latex-image >
+            
+\begin{tikzpicture}[scale=1.5, every node/.style={circle, fill=black, inner sep=1.5pt}]
+  % Coordinates for main vertices
+  \node (a) at (0,2) [label=above left:$a$] {};
+  \node (b) at (2,2) [label=above:$b$] {};
+  \node (c) at (4,2) [label=above right:$c$] {};
+  \node (d) at (0,0) [label=below left:$d$] {};
+  \node (e) at (2,0) [label=below:$e$] {};
+  \node (f) at (4,0) [label=below right:$f$] {};
+
+  % Inner diagonal vertices
+  \node (g) at (1,1) [label=left:$v$] {};
+  \node (w) at (3,1) [label=right:$w$] {};
+
+  % Outer rectangle edges
+  \draw (a)--(b)--(c);
+  \draw (d)--(e)--(f);
+  \draw (a)--(d);
+  \draw (b)--(e);
+  \draw (c)--(f);
+
+  % Diagonals inside each rectangle
+  \draw (a)--(g)--(e);
+  \draw (b)--(w)--(f);
+\end{tikzpicture}
+
+    </latex-image>
+</image>
+</figure>
+    </li>
+
+    <li>
+           
+<figure xml:id="fig-tikz4">
+  <caption>Part (c) figure</caption>
+  <image width="50%" xml:id="graph4">
+<shortdescription>a graph</shortdescription>
+<latex-image > 
+
+\begin{tikzpicture}[every node/.style={circle, draw, inner sep=1.5pt, minimum size=6pt}, scale=1.3]
+    % Nodes with labels
+    \node (a) at (0,2) {a};
+    \node (b) at (2,3) {b};
+    \node (c) at (4,2) {c};
+    \node (d) at (2,2) {d};
+    \node (f) at (0,1) {f};
+    \node (g) at (4,1) {g};
+    \node (e) at (2,0) {e};
+    \node (i) at (0,0) {i};
+    \node (h) at (4,0) {h};
+
+    % Edges
+    \draw (a)--(b)--(c);
+    \draw (a)--(f)--(i)--(e)--(h)--(g)--(c);
+    \draw (b)--(g);
+    \draw (f)--(d)--(g);
+    \draw (f)--(e);
+      \draw (f)--(b);
+    \draw (e)--(g);
+\end{tikzpicture}
+    </latex-image>
+</image>
+</figure>
+    </li>
+
+    <li>     
+<figure xml:id="fig-tikz6">
+  <caption>Part (d) figure</caption>
+  <image width="50%" xml:id="graph6">
+    <shortdescription>a graph</shortdescription>
+    <latex-image >
+ 
+\begin{tikzpicture}[scale=1.6, every node/.style={circle, fill=black, inner sep=1.6pt},
+    vertex/.style={circle, fill=black, inner sep=1.6pt}]
+  % Top layer
+  \node[vertex,label=left:$a$]  (a) at (0,2) {};
+  \node[vertex,label=above:$b$] (b) at (1.5,2.5) {};
+  \node[vertex,label=right:$c$] (c) at (3,2) {};
+  
+  % Middle layer
+  \node[vertex,label=left:$f$]  (f) at (0,1) {};
+  \node[vertex,label=left:$d$]  (d) at (1.5,1.5) {};
+  \node[vertex,label=right:$g$] (g) at (3,1) {};
+  \node[vertex,label=left:$e$]  (e) at (1.5,0.8) {};
+  \node[vertex,label=left:$v$]  (v) at (0,0) {};
+  \node[vertex,label=left:$x$]  (x) at (1.5,0.2) {};
+  \node[vertex,label=right:$y$] (y) at (3,0) {};
+  \node[vertex,label=below:$w$] (w) at (1.5,-0.6) {};
+    \draw (a) -- (b) -- (c);
+
+  % Middle rim / diagonals
+
+  \draw (a) -- (d) -- (c);   
+ 
+
+  % Connections between d and e
+  \draw (d) -- (e);
+  % e to f and g (the two edges you asked for)
+  \draw (e) -- (f);  % ef
+  \draw (e) -- (g);  % eg
+
+  % Vertical side columns
+  \draw (a) -- (f) -- (v);
+  \draw (c) -- (g) -- (y);
+
+  % Bottom rim / spokes
+  \draw (v) -- (x) -- (y);
+  \draw (x) -- (w) -- (v);
+
+  % central vertical
+  \draw (e) -- (x);
+ \draw (w) -- (y);
+\end{tikzpicture}
+      
+</latex-image>
+</image>
+</figure>
+</li>
+</ol>
+</exercise>
+
+
+</exercises> 
+
+  
+</section>
