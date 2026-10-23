@@ -307,6 +307,42 @@ var ptx_lunr_docs = [
   "body": " Suppose certain pairs in a department of six people ( ) must meet privately in a single available conference room. The following is a list of pairs that need to meet:  If a pair is in this list, e.g. , then this means that and need to meet.  Is it possible to sequence the two-person conferences so that one of the participants in each conference (except for the last one) also participates in the next conference, but no one participates in three consecutive conferences? If so, describe how the sequencing needs to be done (who meets first, who meets next, etc.)  You need to answer this problem using concepts and results of graph theory that we talked about, and describe how the given problem can be translated into a problem about a graph, and then solve the problem using the graph.  "
 },
 {
+  "id": "HW8",
+  "level": "1",
+  "url": "HW8.html",
+  "type": "Section",
+  "number": "",
+  "title": "Homework 8",
+  "body": " Homework 8  Due Friday, October 30th     Find the optimal postman tour for the graph below. In other words, find a closed walk of minimum weight that uses all the edges at least once. Give the walk by enumerating the vertices. Then, compute the total weight of this walk. Show all steps of the algorithm.   Problem 1 figure   a graph        Prove that a bipartite graph that is Hamiltonian must have an even number of vertices.    For each of the graphs below, decide whether it is Hamiltonian or not. If it is Hamiltonian, give a Hamiltonian cycle. If it is not, you need to explain why not.     Part (a) figure   a graph        Part (b) figure   a graph        Part (c) figure   a graph        Part (d) figure   a graph         "
+},
+{
+  "id": "hw8-ex-1",
+  "level": "2",
+  "url": "HW8.html#hw8-ex-1",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Find the optimal postman tour for the graph below. In other words, find a closed walk of minimum weight that uses all the edges at least once. Give the walk by enumerating the vertices. Then, compute the total weight of this walk. Show all steps of the algorithm.   Problem 1 figure   a graph      "
+},
+{
+  "id": "hw8-ex-2",
+  "level": "2",
+  "url": "HW8.html#hw8-ex-2",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": " Prove that a bipartite graph that is Hamiltonian must have an even number of vertices.  "
+},
+{
+  "id": "hw8-ex-3",
+  "level": "2",
+  "url": "HW8.html#hw8-ex-3",
+  "type": "Exercise",
+  "number": "3",
+  "title": "",
+  "body": " For each of the graphs below, decide whether it is Hamiltonian or not. If it is Hamiltonian, give a Hamiltonian cycle. If it is not, you need to explain why not.     Part (a) figure   a graph        Part (b) figure   a graph        Part (c) figure   a graph        Part (d) figure   a graph       "
+},
+{
   "id": "Review1",
   "level": "1",
   "url": "Review1.html",
