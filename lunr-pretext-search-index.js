@@ -343,6 +343,42 @@ var ptx_lunr_docs = [
   "body": " For each of the graphs below, decide whether it is Hamiltonian or not. If it is Hamiltonian, give a Hamiltonian cycle. If it is not, you need to explain why not.     Part (a) figure   a graph        Part (b) figure   a graph        Part (c) figure   a graph        Part (d) figure   a graph       "
 },
 {
+  "id": "HW9",
+  "level": "1",
+  "url": "HW9.html",
+  "type": "Section",
+  "number": "",
+  "title": "Homework 9",
+  "body": " Homework 9  Due Friday, November 6    From the book: 8.2, 8.3, 8.4    Use the algorithm \"Double the tree\" for the following Traveling Salesman Problem. You need to show all the steps of the algorithm:   Find a minimum spanning tree (any algorithm you want);    Double the tree;    Find an Eulerian circuit for the doubled tree    Follow the Eulerian circuit, taking shortcuts as necessary to avoid repeating vertices. (Note that the graph does not satisfy the triangle inequality; ignore this.)   The output should be a Hamiltonian cycle. Give the cycle by enumerating the vertices, and also compute the total weight.   a graph     Show that the square of the path graph is Hamiltonian for all .   You need to consider two cases, depending on whether is odd or even. To build intuition, you may consider the cases and first. However, try to write a proof that works for all .     "
+},
+{
+  "id": "HW9-3-1",
+  "level": "2",
+  "url": "HW9.html#HW9-3-1",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": " From the book: 8.2, 8.3, 8.4  "
+},
+{
+  "id": "HW9-3-2",
+  "level": "2",
+  "url": "HW9.html#HW9-3-2",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": " Use the algorithm \"Double the tree\" for the following Traveling Salesman Problem. You need to show all the steps of the algorithm:   Find a minimum spanning tree (any algorithm you want);    Double the tree;    Find an Eulerian circuit for the doubled tree    Follow the Eulerian circuit, taking shortcuts as necessary to avoid repeating vertices. (Note that the graph does not satisfy the triangle inequality; ignore this.)   The output should be a Hamiltonian cycle. Give the cycle by enumerating the vertices, and also compute the total weight.   a graph   "
+},
+{
+  "id": "HW9-3-3",
+  "level": "2",
+  "url": "HW9.html#HW9-3-3",
+  "type": "Exercise",
+  "number": "3",
+  "title": "",
+  "body": " Show that the square of the path graph is Hamiltonian for all .   You need to consider two cases, depending on whether is odd or even. To build intuition, you may consider the cases and first. However, try to write a proof that works for all .   "
+},
+{
   "id": "Review1",
   "level": "1",
   "url": "Review1.html",
