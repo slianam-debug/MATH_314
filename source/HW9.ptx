@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="HW9" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Homework 9</title>
+
+  <p><alert> Due Friday, November 6</alert></p>
+
+ <exercises> 
+<exercise>
+<p>
+  From the book: 8.2, 8.3, 8.4
+</p>
+</exercise>
+
+<exercise>
+<p>
+  Use the algorithm "Double the tree" for the following Traveling Salesman Problem. You need to show all the steps of the algorithm: 
+  <ol>
+    <li>
+        <p>
+        Find a minimum spanning tree (any algorithm you want);     
+        </p>
+    </li>
+    <li>
+        <p>
+          Double the tree;  
+        </p>
+    </li>
+    <li>
+        <p>
+         Find an Eulerian circuit for the doubled tree   
+        </p>
+    </li>
+    <li>
+        <p>
+          Follow the Eulerian circuit, taking shortcuts 
+  as necessary to avoid repeating vertices.  (Note that the graph does not satisfy the triangle inequality; ignore this.)
+        </p>
+    </li>
+  </ol>  
+  The output should be a Hamiltonian cycle. Give the cycle by enumerating the vertices, and also compute the total weight. 
+</p>
+  <image source="TSP.jpg" width="50%">
+    <shortdescription>a graph</shortdescription>
+  </image>
+</exercise>
+
+<exercise>
+    <p>
+    Show that the square <m>P_n^2</m> of the path graph <m>P_n</m> is Hamiltonian for all <m>n\ge 3</m>. 
+    </p>
+<hint>
+  <p>
+    You need to consider two cases, depending on whether <m>n</m> is odd or even. To build intuition, you may consider the cases <m>n=4</m> and <m>n=5</m> first.   
+ However, try to write a proof that works for all <m>n\ge 3</m>. 
+  </p>
+  </hint>
+</exercise>
+
+</exercises> 
+
+  
+</section>
