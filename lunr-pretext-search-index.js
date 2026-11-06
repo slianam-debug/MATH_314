@@ -385,7 +385,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Homework 10",
-  "body": " Homework 10  Due Friday, November 13th    From the book: 9.1, 9.2, 9.3, 9.4 (justify your answer), 9.9     Determine, with explanation, whether the graph below is planar.   Problem 1 figure   a graph        "
+  "body": " Homework 10  Due Friday, November 13th    From the book: 9.1, 9.2, 9.3, 9.4 (justify your answer), 9.9     Determine, with explanation, whether the graph below is planar.    a graph        "
 },
 {
   "id": "hw10-ex-1",
@@ -403,7 +403,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2",
   "title": "",
-  "body": "  Determine, with explanation, whether the graph below is planar.   Problem 1 figure   a graph      "
+  "body": "  Determine, with explanation, whether the graph below is planar.    a graph      "
 },
 {
   "id": "Review1",
