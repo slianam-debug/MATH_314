@@ -18,8 +18,8 @@
         <statement>
       <p>
    Determine, with explanation, whether the graph below is planar.  </p>
-<figure xml:id="fig">
-  <image width="50%" xml:id="mygraph">
+<figure label="none">
+  <image width="36%" xml:id="mygraph">
     <shortdescription>a graph</shortdescription>
 <latex-image >
 \begin{tikzpicture}[
