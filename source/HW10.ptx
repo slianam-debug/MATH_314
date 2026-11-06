@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="HW10" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Homework 10</title>
+
+  <p><alert> Due Friday, November 13th </alert></p>
+
+  
+  
+<exercises xml:id="hw10-ex">
+<exercise>
+<p>
+    From the book: 9.1, 9.2, 9.3, 9.4 (justify your answer), 9.9
+</p>
+</exercise>
+
+<exercise>
+        <statement>
+      <p>
+   Determine, with explanation, whether the graph below is planar.  </p>
+<figure xml:id="fig">
+  <caption>Problem 1 figure</caption>
+  <image width="50%" xml:id="mygraph">
+    <shortdescription>a graph</shortdescription>
+<latex-image >
+\begin{tikzpicture}[
+    vertex/.style={circle, fill=black, inner sep=2.5pt},
+    line width=0.9pt]
+
+% Vertices
+\node[vertex, label=above left:$a$] (a) at (-2,2) {};
+\node[vertex, label=above:$b$] (b) at (0,2.6) {};
+\node[vertex, label=above right:$c$] (c) at (2,2) {};
+\node[vertex, label=right:$d$] (d) at (2.6,0) {};
+\node[vertex, label=below right:$e$] (e) at (2,-2) {};
+\node[vertex, label=below:$f$] (f) at (0,-2.6) {};
+\node[vertex, label=below left:$g$] (g) at (-2,-2) {};
+\node[vertex, label=left:$h$] (h) at (-2.6,0) {};
+
+% Outer cycle
+\draw (a)--(b)--(c)--(d)--(e)--(f)--(g)--(h)--(a);
+
+% Additional edges
+\draw (a)--(d);
+\draw (b)--(g);
+\draw (c)--(f);
+\draw (e)--(h);
+\end{tikzpicture}
+</latex-image>
+</image>
+</figure>
+</statement>
+</exercise>
+
+
+</exercises> 
+
+  
+</section>
