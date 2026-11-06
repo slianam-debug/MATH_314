@@ -19,7 +19,6 @@
       <p>
    Determine, with explanation, whether the graph below is planar.  </p>
 <figure xml:id="fig">
-  <caption>Problem 1 figure</caption>
   <image width="50%" xml:id="mygraph">
     <shortdescription>a graph</shortdescription>
 <latex-image >
