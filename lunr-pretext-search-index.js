@@ -379,6 +379,33 @@ var ptx_lunr_docs = [
   "body": " Show that the square of the path graph is Hamiltonian for all .   You need to consider two cases, depending on whether is odd or even. To build intuition, you may consider the cases and first. However, try to write a proof that works for all .   "
 },
 {
+  "id": "HW10",
+  "level": "1",
+  "url": "HW10.html",
+  "type": "Section",
+  "number": "",
+  "title": "Homework 10",
+  "body": " Homework 10  Due Friday, November 13th    From the book: 9.1, 9.2, 9.3, 9.4 (justify your answer), 9.9     Determine, with explanation, whether the graph below is planar.   Problem 1 figure   a graph        "
+},
+{
+  "id": "hw10-ex-1",
+  "level": "2",
+  "url": "HW10.html#hw10-ex-1",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": " From the book: 9.1, 9.2, 9.3, 9.4 (justify your answer), 9.9  "
+},
+{
+  "id": "hw10-ex-2",
+  "level": "2",
+  "url": "HW10.html#hw10-ex-2",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Determine, with explanation, whether the graph below is planar.   Problem 1 figure   a graph      "
+},
+{
   "id": "Review1",
   "level": "1",
   "url": "Review1.html",
