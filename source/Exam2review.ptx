@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="Review2" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Review for Exam 2</title>
+
+    <p>
+      You will be allowed a 5x7 note card (both sides OK). You are allowed to write definitions, algorithms and statements of results. You are <alert>NOT</alert> allowed to write proofs of results or examples. I will check them during the exam.
+    </p>
+
+
+    
+  <ul> 
+    <li>
+      <p> <em>>Section 5.3  Connectivity</em></p>
+      <ul>
+        <li>
+          <p>Definitions and concepts:</p>
+          <ul>
+            <li><p>vertex-cut and minimum vertex-cut</p></li>
+            <li><p>edge-cut and minimum edge-cut</p></li>
+            <li><p>vertex connectivity <m>\kappa(G)</m></p></li>
+            <li><p>edge connectivity <m>\lambda(G)</m></p></li>
+              <li><p>power of a graph, <m>G^r</m></p></li>
+          </ul>
+        </li>
+        <li>
+          <p>Applications and theorems:</p>
+          <ul>
+            <li><p>Theorem 5.11</p></li>
+            <li><p>Theorem 5.13</p></li>
+            <li><p>Identify minimum vertex-cuts, edge-cuts, and compute <m>\kappa(G)</m>, <m>\lambda(G)</m> for a given graph <m>G</m>.</p></li>
+          <li><p>Draw <m>G^2, G^3</m> for a given graph</p></li>
+          </ul>
+        </li>
+      </ul>
+      </li>
+   
+<li>
+      <p> <em> Section 6.1 Eulerian graphs</em></p>
+      <ul>
+        <li>
+          <p>Definitions and concepts:</p>
+          <ul>
+            <li><p>Eulerian circuit</p></li>
+            <li><p>Eulerian graph</p></li>
+            <li><p>Eulerian trail</p></li>
+          </ul>
+        </li>
+        <li>
+          <p>Applications and theorems:</p>
+          <ul>
+            <li><p>Theorem 6.1</p></li>
+            <li><p>Theorem 6.2</p></li>
+            <li><p>Find an Eulerian trail or an Eulerian circuit in a graph, or explain why they do not exist</p></li>
+            <li>
+              <p>Interpret concrete problems in terms of Eulerian trails/circuits (the Königsberg bridge problem, exercise 6.1)</p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      </li>
+  
+  <li>
+      <p> <em>Optimal Postman tours: find an optimal closed walk that uses all edges</em></p>
+      <ul>
+        <li>
+          <p>Definitions and concepts:</p>
+          <ul>
+            <li><p>postman tour/optimal postman tour</p></li>
+          </ul>
+        </li>
+        <li>
+          <p>Applications and theorems:</p>
+          <ul>
+            <li><p>Find an optimal postman tour (follow the algorithm); see class notes</p></li>
+          </ul>
+        </li>
+      </ul>
+      </li>
+   
+<li>
+      <p> <em>Section 6.2  Hamiltonian graphs</em></p>
+      <ul>
+        <li>
+          <p>Definitions and concepts:</p>
+          <ul>
+            <li><p>Hamiltonian cycle (tour)</p></li>
+            <li><p>Hamiltonian graph</p></li>
+          </ul>
+        </li>
+        <li>
+          <p>Applications and theorems:</p>
+          <ul>
+            <li><p>Theorem 6.5; <alert>be able to prove</alert></p></li>
+            <li><p>Decide whether a graph is Hamiltonian. If it is, find a Hamiltonian cycle. If it is not, be able to provide an explanation.</p></li>
+          </ul>
+        </li>
+      </ul>
+
+      </li>
+  
+    <li>
+      <p> <em>>Traveling salesman problems (TSP)</em></p>
+      <ul>
+        <li>
+          <p>Definitions and concepts:</p>
+          <ul>
+            <li><p>the Traveling Salesman Problem; see class notes</p></li>
+            <li><p>triangle inequality for a graph</p></li>
+          </ul>
+        </li>
+        <li>
+          <p>Applications and theorems:</p>
+          <ul>
+            <li>
+              <p>The double the tree algorithm (Make sure to review Prim's or Kruskal's algorithm for finding a minimum spanning tree, as this is needed for the algorithm)</p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      </li>
+
+      <li>
+      <p> <em> Section 8.1  Matchings</em></p>
+      <ul>
+        <li>
+          <p>Definitions and concepts:</p>
+          <ul>
+            <li><p>matching/perfect matching</p></li>
+            <li><p>neighborhood of a set of vertices</p></li>
+            <li><p>Hall's condition</p></li>
+          </ul>
+        </li>
+        <li>
+          <p>Applications and theorems:</p>
+          <ul>
+            <li><p>Theorem 8.3</p></li>
+            <li><p>Construct matchings or prove that they do not exist.</p></li>
+            <li>
+              <p>Interpret other problems in terms of matchings (see the examples in the book, homework problems, Theorem 8.4, the marriage problem)</p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      </li>
+   
+   <li>
+      <p> <em> Section 8.2  Planar graphs</em></p>
+      <ul>
+        <li>
+          <p>Definitions and concepts:</p>
+          <ul>
+            <li><p>planar graphs</p></li>
+            <li><p>plane graphs</p></li>
+            <li><p>regions, exterior region</p></li>
+            <li><p>boundary of a region</p></li>
+          </ul>
+        </li> 
+        <li>
+          <p>Applications and theorems:</p>
+          <ul>
+            <li><p>Theorem 9.1; <alert>be able to prove</alert></p></li>
+            <li><p>Theorem 9.2; <alert>be able to prove</alert></p></li>
+            <li><p>Corollary 9.3; <alert>be able to prove</alert></p></li>
+            <li><p>Corollary 9.4; <alert>be able to prove</alert></p></li>
+            <li><p>Theorem 9.5; <alert>be able to prove</alert></p></li>
+            <li>
+              <p>Decide whether a graph is planar or not, with explanation (Draw it as a plane graph, or explain why it cannot be done.)</p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      </li>
+      </ul>
+</section>
